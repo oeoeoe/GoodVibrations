@@ -24,9 +24,9 @@ A sample blog page that demonstrates the accessing of github meta data.
 <br />
 
 ## Example MetaData
-* Host Name : {{ site.github.hostname }}
-* URL : {{ site.github.url }}
-* BaseURL : {{ site.github.baseurl }}
+* Host Name : {{ https://oeoeoe.github.io/GoodVibrations/ }}
+* URL : {{ https://oeoeoe.github.io/GoodVibrations/ }}
+* BaseURL : {{ https://oeoeoe.github.io/GoodVibrations/ }}
 * Archived : {{ site.github.archived}}
 * Contributors : 
 {% for contributor in site.github.contributors %}
