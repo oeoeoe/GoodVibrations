@@ -4,4 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="button_round_corners">20dp</dimen>
     <dimen name="button_tap">80dp</dimen>
+    <dimen name="line_padding">16dp</dimen>
+    <dimen name="big_padding">60dp</dimen>
 </resources>
