@@ -5,6 +5,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorLightText</item>
+        <item name="actionBarItemBackground">@color/colorBackground</item>
+        <item name="android:actionBarTheme">@color/colorBackground</item>
+        <item name="appBarLayoutStyle">@color/colorBackground</item>
 
     </style>
 
@@ -14,4 +19,6 @@
         <item name="android:padding">@dimen/activity_horizontal_margin</item>
         <item name="android:radius">@dimen/button_round_corners</item>
     </style>
+
+
 </resources>
