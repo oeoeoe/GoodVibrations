@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1089706211606",
+    "firebase_url": "https://goodvibrationsapp-dad4b.firebaseio.com",
+    "project_id": "goodvibrationsapp-dad4b",
+    "storage_bucket": "goodvibrationsapp-dad4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089706211606:android:50eb9a251b11e1f22db837",
+        "android_client_info": {
+          "package_name": "com.example.goodvibrationsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089706211606-tqd4guft7qi7q1g1obdj5huqhivpk9s2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.goodvibrationsapp",
+            "certificate_hash": "48b597b5df7875f5cbaea6a2e46004e2dac64d28"
+          }
+        },
+        {
+          "client_id": "1089706211606-iaps333hq88ifb49keia5o1nmu5gck2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGQXhHvHYXuDXaWbmn7WaJVacjCT33Z5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089706211606-iaps333hq88ifb49keia5o1nmu5gck2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

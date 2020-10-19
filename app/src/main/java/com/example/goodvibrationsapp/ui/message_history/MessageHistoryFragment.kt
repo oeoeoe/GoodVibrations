@@ -1,63 +1,70 @@
-package com.example.goodvibrationsapp.ui.send_message
+package com.example.goodvibrationsapp.ui.message_history
 
+import android.content.ContentValues.TAG
 import android.content.Context
 import android.os.Build
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.goodvibrationsapp.R
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
+import kotlinx.android.synthetic.main.message_history.*
 
-//previously known as HomeFragment
+class MessageHistoryFragment : Fragment() {
+    private lateinit var linearLayoutManager: LinearLayoutManager
+    private lateinit var adapter: MessageHistoryAdapter
 
-class SendMessageFragment : Fragment() {
-    lateinit var outputTaps : TextView
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_send_message, container, false)
-        outputTaps = root.findViewById(R.id.output_taps)
-        val tapButton :Button = root.findViewById(R.id.button_tap_message)
-        tapButton.setOnClickListener{
-            tapped(it)
-        }
-        tapButton.setOnLongClickListener{
-            longTapped(it)
-       }
-        val sendButton :Button = root.findViewById(R.id.button_send_message)
-        sendButton.setOnClickListener{
-            vibratePhone()
-        }
+        val root = inflater.inflate(R.layout.message_history, container, false)
+        var recycler = root.findViewById(R.id.message_list_recycle) as RecyclerView
+        linearLayoutManager = LinearLayoutManager(this.activity)
+        recycler.layoutManager = linearLayoutManager
+        val list = arrayListOf<String>()
+        list.addAll(listOf("1", "2", "3"))
+        adapter = MessageHistoryAdapter(list)
+        recycler.adapter = adapter
+        //database stuff
+        val database = FirebaseDatabase.getInstance()
+        val myRef = database.getReference("message")
+        myRef.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(dataSnapshot: DataSnapshot) {
+                // This method is called once with the initial value and again
+                // whenever data at this location is updated.
+                val value = dataSnapshot.getValue()
+                Log.d(TAG, "Value is: $value")
+                vibratePhone(value.toString())
+            }
+            override fun onCancelled(error: DatabaseError) {
+                // Failed to read value
+                Log.w(TAG, "Failed to read value.", error.toException())
+            }
+        })
         return root
     }
 
-    private fun tapped(view : View){
-        val text = outputTaps.text.toString()
-        outputTaps.text = text + "."
-    }
-    private fun longTapped(view : View):Boolean{
-        val text = outputTaps.text.toString()
-        outputTaps.text = text + "_"
-        return true
-    }
-
-    fun vibratePhone() {
+    fun vibratePhone(text :String) {
         // Write a message to the database
         val database = FirebaseDatabase.getInstance()
         val myRef = database.getReference("message")
 
-        myRef.setValue(outputTaps.text.toString())
+        myRef.setValue(text)
         val vibrator = context?.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
         if (Build.VERSION.SDK_INT >= 26) {
-            for (c in outputTaps.text.toString()){
+            for (c in text){
                 when {
                     c.toString() == "." -> {
                         println(".")
@@ -74,7 +81,7 @@ class SendMessageFragment : Fragment() {
                 Thread.sleep(1_000)
             }
         } else {
-            for (c in outputTaps.text.toString()){
+            for (c in text){
                 when {
                     c.toString() == "." -> {
                         println(".")
@@ -92,6 +99,5 @@ class SendMessageFragment : Fragment() {
             }
 
         }
-        outputTaps.text = ""
     }
 }
