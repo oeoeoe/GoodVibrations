@@ -81,6 +81,7 @@ The sketches aims to showcase the core functionality of the application, at this
 ### Evaluation
 
 This iteration was evaluated by conduction interviews after the participants have seen the sketches and read the description of the concept. Core findings from this evaluation are:
+
 **Strengths:** Unique and interesting. Discreet communication. Morse code is cool. Good to avoid shoulder surfing. Awakens awareness of integrity. Cares about personal integrity.
 
 **Weaknesses:** Steep learning curve, especially for letters and morse code. If you don’t feel a vibration, the message may be lost or distorted. Few use cases.
