@@ -1,11 +1,11 @@
 ---
 typora-copy-images-to: images
-title: Good Vibrations
 ---
+
+# Good Vibrations
 ___
 
 Tove Ekman & Alexander Nordgren
-
 ___
 
 
