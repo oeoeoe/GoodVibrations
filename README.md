@@ -1,6 +1,6 @@
 ## Welcome to Good Vibrations
 
-To find out more about the app. please check out [Good Vibrations](https://oeoeoe.github.io/GoodVibrations/)
+To find out more about the app, please check out [Good Vibrations](https://oeoeoe.github.io/GoodVibrations/) webpage.
 
 What works right now?
 
@@ -11,3 +11,4 @@ What works right now?
 - [ ] Sign in
 - [ ] Choose contacts to send to
 - [ ] Add contacts
+
