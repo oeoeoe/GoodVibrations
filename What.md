@@ -2,7 +2,7 @@
 title: What is Good Vibrations?
 ---
 
-
+This page will describe what Good Vibrations actually is and how it works.
 
 ## What does Good Vibrations do?
 
