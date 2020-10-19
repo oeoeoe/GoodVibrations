@@ -1,8 +1,8 @@
 title: Good Vibrations
-email: alenordg@student.chalmers.se ,  ektove@student.chalmers.se
+email: alenordg@student.chalmers.se ;  ektove@student.chalmers.se
 description: This is a Project website for the mobile computing course at Chalmers University of Technology
 
-github_username:  AllexNordgren , Oeoeoe
+github_username:  AllexNordgren ; Oeoeoe
 
 # Build settings
 plugins:
