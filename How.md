@@ -1,7 +1,10 @@
 # How was Good Vibrations developed?
 ## Future Work
+An interactive prototype is now being developed. Futher refinement of functions and design may be coming. 
 ## Stuff we have considered and chose to not include
+This section will talk about some design desicions that we have made.
 ## iteration 4
+This is the current iteration and it will be updated with new information during the iteration.
 
 ## Iteration 3
 
