@@ -2,6 +2,7 @@
 title: How was Good Vibrations developed?
 ---
 
+Here you can read about the process in developing Good Vibrations. The newest iteration of the project is at the top and the very first iteration can be found at the end. Related work can also be seen at the end of this page.
 
 ## Future Work
 An interactive prototype is now being developed. Futher refinement of functions and design may be coming. 
