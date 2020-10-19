@@ -9,7 +9,7 @@
 
 In the concept where we are targeting regular users, we wanted to make the learning curve as small as possible. Therefore the application needs to guide the user and offer an easier way to communicate than using regular morse code. Therefore the need to translate taps into letters and vice versa were removed. Instead the application sends the taps as they are without any translations, this further allows the users to communicate in whatever way they want to. Using the dictionary is not mandatory, however it may help the user so that they do not have to remember all of the codes that they have come up with.
 
-<img src="images\Log in Screen.png" alt="Log in Screen" style="zoom:70%;" /> <img src="images\Log in Screen-1.png" alt="Log in Screen-1" style="zoom:70%;" /> <img src="images\Send Message Screen (1)-1602833993789.png" alt="Log in Screen-1" style="zoom:70%;" /> 
+<img src="images\Log in Screen.png" alt="Log in Screen" style="zoom:60%;" /> <img src="images\Log in Screen-1.png" alt="Log in Screen-1" style="zoom:60%;" /> <img src="images\Send Message Screen (1)-1602833993789.png" alt="Log in Screen-1" style="zoom:60%;" /> 
 
 <img src="images\Contacts Screen.png" alt="Log in Screen" style="zoom:70%;" /> <img src="images\Messages Screen.png" alt="Log in Screen-1" style="zoom:70%;" /> <img src="images\Settings Screen.png" alt="Log in Screen-1" style="zoom:70%;" /> 
 
