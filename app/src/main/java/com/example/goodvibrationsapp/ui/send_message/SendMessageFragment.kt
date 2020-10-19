@@ -1,6 +1,10 @@
 package com.example.goodvibrationsapp.ui.send_message
 
+import android.content.Context
+import android.os.Build
 import android.os.Bundle
+import android.os.VibrationEffect
+import android.os.Vibrator
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -27,6 +31,10 @@ class SendMessageFragment : Fragment() {
         tapButton.setOnLongClickListener{
             longTapped(it)
        }
+        val sendButton :Button = root.findViewById(R.id.button_send_message)
+        sendButton.setOnClickListener{
+            vibratePhone()
+        }
         return root
     }
 
@@ -38,5 +46,46 @@ class SendMessageFragment : Fragment() {
         val text = outputTaps.text.toString()
         outputTaps.text = text + "_"
         return true
+    }
+
+    fun vibratePhone() {
+        val vibrator = context?.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+        if (Build.VERSION.SDK_INT >= 26) {
+            for (c in outputTaps.text.toString()){
+                when {
+                    c.toString() == "." -> {
+                        println(".")
+                        vibrator.vibrate(VibrationEffect.createOneShot(200, VibrationEffect.DEFAULT_AMPLITUDE))
+                    }
+                    c.toString() == "_" -> {
+                        vibrator.vibrate(VibrationEffect.createOneShot(800, VibrationEffect.DEFAULT_AMPLITUDE))
+                        println("_")
+                    }
+                    else -> {
+                        println("nothing")
+                    }
+                }
+                Thread.sleep(1_000)
+            }
+        } else {
+            for (c in outputTaps.text.toString()){
+                when {
+                    c.toString() == "." -> {
+                        println(".")
+                        vibrator.vibrate(200)
+                    }
+                    c.toString() == "_" -> {
+                        vibrator.vibrate(800)
+                        println("_")
+                    }
+                    else -> {
+                        println("nothing")
+                    }
+                }
+                Thread.sleep(1_000)
+            }
+
+        }
+        outputTaps.text = ""
     }
 }
