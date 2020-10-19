@@ -13,4 +13,5 @@
     <string name="textview_contact_names">Alexander, Marie</string>
     <string name="new_message_alert">New Message Alert</string>
     <string name="logout">Log out</string>
+    <string name="message_history">Message History</string>
 </resources>

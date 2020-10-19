@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/message_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.message_history.MessageHistoryFragment">
+
+
+    //List of settings. Each setting has its own linear layout that is it's row.
+
+    //Mode row
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/message_list_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_new_message_alert" />
+
+    <TextView
+        android:id="@+id/textview_new_message_alert"
+        style="@style/TextBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message_history"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    //New message alert row
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

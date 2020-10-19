@@ -12,6 +12,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.example.goodvibrationsapp.R
+import com.google.firebase.database.FirebaseDatabase
 
 //previously known as HomeFragment
 
@@ -49,6 +50,11 @@ class SendMessageFragment : Fragment() {
     }
 
     fun vibratePhone() {
+        // Write a message to the database
+        val database = FirebaseDatabase.getInstance()
+        val myRef = database.getReference("message")
+
+        myRef.setValue(outputTaps.text.toString())
         val vibrator = context?.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
         if (Build.VERSION.SDK_INT >= 26) {
             for (c in outputTaps.text.toString()){
