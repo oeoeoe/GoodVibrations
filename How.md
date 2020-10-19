@@ -1,4 +1,8 @@
-# How was Good Vibrations developed?
+---
+title: How was Good Vibrations developed?
+---
+
+
 ## Future Work
 An interactive prototype is now being developed. Futher refinement of functions and design may be coming. 
 ## Stuff we have considered and chose to not include
