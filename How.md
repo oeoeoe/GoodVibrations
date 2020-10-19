@@ -26,9 +26,12 @@ In this concept the users are thought to be trained in communication using secre
 **Third iterations description of the project aiming at advanced users:**  The app lets users communicate via taps and vibrations. The intended user is someone who really needs to communicate secretly, like an undercover agent. In this app, the users only communicate in sequences of taps/vibrations, no dictionary is present. It is up to the users if they want to communicate in Morse code or use other codes that only the recipient understands.
 
 ### Evaluation
-|                                                   |                                                 |
-|           ---                                     |                    ---                          |
-|#1: Input is shown directly on the screen
+This iteration was evaluated using a Heuristic Waltkthrough, the result can be seen in the images below with motivations for their scores below the images. 
+The version for regular users are to the left and its motivations are without parenteses. The version for advanced users are shown to the right and the motivation are in parenteses.
+
+<img src="images\Friends.png" alt="Log in Screen" style="zoom:50%;" /> <img src="images\Agents.png" alt="Log in Screen-1" style="zoom:50%;" /> 
+
+#1: Input is shown directly on the screen
 
 #2: The app follows conventions for design
 
@@ -46,7 +49,9 @@ In this concept the users are thought to be trained in communication using secre
 
 #9: There are no error messages in the prototype
 
-#10: Some information for what is expected from the user is given. No help button or documentation is provided. |![img](https://lh3.googleusercontent.com/vTAMn9RvmgnurkY07pNDZTF8n99y32QttlS70g8DLyz9U33sjGf29SlRaJ3yPqLQRXxlJVlNXb8PKOD8t-FrK-FkJkSWhEnxuqoYsJ2a3_ESFGujYaXame04mEAZHSLPTpbnfI_G) |![img](https://lh3.googleusercontent.com/ELs4hn5zyZPofrm_sVCkaAR0_I33S5EmE8wO23Hz3MhAfP2dVB-wA43xp2HPuGC_NrIGvjP60cXr3DkAOWnnGUC7FLkubBi3zZyzecOBI420SONHEtMt7A3-JoM85rpNaRbRieix
+#10: Some information for what is expected from the user is given. No help button or documentation is provided. 
+
+
 
 ### Outcomes and Learnings from iteration 3
 
