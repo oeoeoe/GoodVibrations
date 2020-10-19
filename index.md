@@ -10,11 +10,11 @@ ___
 
 
 
-#####  What is Good Vibrations?
+#### What is Good Vibrations?
 
 >  Good Vibrations is an app that allows the users to receive messages without the need to look at the phone.
 
-##### Why is Good Vibrations being developed?
+#### Why is Good Vibrations being developed?
 
 > This is a project that aims to reveal whether you can communicate by using vibrations instead of sounds and text. Similar to the Morse code, but with vibrations instead of visual feedback.
 
