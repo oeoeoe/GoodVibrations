@@ -1,7 +1,14 @@
-# How was Good Vibrations developed?
+---
+title: How was Good Vibrations developed?
+---
+
+
 ## Future Work
+An interactive prototype is now being developed. Futher refinement of functions and design may be coming. 
 ## Stuff we have considered and chose to not include
+This section will talk about some design desicions that we have made.
 ## iteration 4
+This is the current iteration and it will be updated with new information during the iteration.
 
 ## Iteration 3
 
@@ -59,9 +66,13 @@ In the evaluation, we saw that Idea 1 has better results. Mainly, the communicat
 
 
 
-## iteration 2
+## Iteration 2
 
-A rough prototype has been developed, together with an updated description of the concept.![img](https://lh4.googleusercontent.com/OY1BjJzKJjWkuRrMt1uLgXqcAGY4ydzryf8gG0QCppvU4m6w-LygNkrfldCgffh4Sv0kzcdZ8C3GXo3blMG_MyZPELCjz0-UozrUcQ22Rum8DZFvHHOZlWuin8-fOMM-EvpiqPzr)![img](https://lh4.googleusercontent.com/xoNnG4OSSjEoWfKeadQw6sZMUniiNdra18Xje6CGtsz9wv7XG--FtZ2rj4OkIg8OWpPo2iaU2WiJlY-tTuGCtSUiBirvYvghK2HQ9GC2RHA5jNhdnwHSgCycVmUSMOpPmdVjo92f)![img](https://lh5.googleusercontent.com/4xi_uCA26Juf6Q88sadBaM0Mc8lB_SvkHzfCuYW_2zls5b4z1aQVsx95ApJINRkMqK0UyIx4uqPuFJidfBd94oPv3So6gP4LT9JSL9UcraY26iF0TDPXaK_tfZQ_QV8GEgLSIlch)
+A rough prototype has been developed, together with an updated description of the concept.
+
+<img src="images\2main.png" alt="Main Screen" style="zoom:50%;" /> <img src="images\2history.png" alt="Message History Screen" style="zoom:50%;" /> <img src="images\2settings.png" alt="Settings Screen" style="zoom:50%;" /> 
+
+
 
 The sketches aims to showcase the core functionality of the application, at this stage the messages were preinstalled in the app, such as morse code for letters and the app would translate the code to letters, which are then sent and translated back to vibrations on the side. This form of preprogrammed messages makes it easier for the user so send predefined commands, such as directions. The interactions of the app was mainly gestures, taps and fields of the screen. Functionality at this stage included: sending and receiving messages, history of messages and changing the predefined messages. We also tried to find a solution for inputting messages with the phone in the pocket but we decided to not investigate this approach further due to lack of time and motivation for this direction.
 
@@ -70,6 +81,7 @@ The sketches aims to showcase the core functionality of the application, at this
 ### Evaluation
 
 This iteration was evaluated by conduction interviews after the participants have seen the sketches and read the description of the concept. Core findings from this evaluation are:
+
 **Strengths:** Unique and interesting. Discreet communication. Morse code is cool. Good to avoid shoulder surfing. Awakens awareness of integrity. Cares about personal integrity.
 
 **Weaknesses:** Steep learning curve, especially for letters and morse code. If you don’t feel a vibration, the message may be lost or distorted. Few use cases.
@@ -85,7 +97,9 @@ The second direction that we wanted to explore was for use by more advanced user
 
 ## iteration 1
 
- The idea for Good Vibrations was born by compiling a list of sensors that a smartphone contains. Based on this list some ideation were pursued, such as brainstorming. The idea of sending and receiving messages based on vibrations were born. Following the ideation was a desk study to see if this would be feasible, studies point out that learning to distinguish words in morse code based on vibrations might need a lot of training, but it is doable. [**https://dl.acm.org/doi/10.1145/3402935**](https://dl.acm.org/doi/10.1145/3402935)
+ The idea for Good Vibrations was born by compiling a list of sensors that a smartphone contains. Based on this list some ideation were pursued, such as brainstorming. The idea of sending and receiving messages based on vibrations were born. Following the ideation was a desk study to see if this would be feasible, studies point out that learning to distinguish words in morse code based on vibrations might need a lot of training, but it is doable. [The study can be read here](https://dl.acm.org/doi/10.1145/3402935)
+ 
+ 
 **The initial description of the concept:** Messages are secured by being sent as a form of morse code that the recipient can feel by the phones vibrations. The idea is that the vibrations will be strong enough so that the recipient can feel the individual vibrations with their phone in their pocket, but not to strong so that the some one else could hear the phones vibrations.
 
 ## Related Work
