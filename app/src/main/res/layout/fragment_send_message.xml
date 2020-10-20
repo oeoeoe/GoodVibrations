@@ -30,18 +30,13 @@
             android:textAllCaps="false" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/button_tap_message"
+    <com.example.goodvibrationsapp.ui.CodeSequenceView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingStart="@dimen/button_tap"
-        android:paddingTop="@dimen/button_tap"
-        android:paddingEnd="@dimen/button_tap"
-        android:paddingBottom="@dimen/button_tap"
-        android:text="@string/button_title_tap_a_sequence_here"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/recipients_container" />
+        app:layout_constraintTop_toBottomOf="@id/recipients_container"
+        app:layout_constraintBottom_toTopOf="@id/button_send_message" />
 
     <Button
         android:id="@+id/button_send_message"
@@ -54,14 +49,5 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginBottom="@dimen/button_tap"/>
 
-    <TextView
-        android:id="@+id/output_taps"
-        android:layout_width="310dp"
-        android:layout_height="wrap_content"
-        android:textSize="45sp"
-        app:layout_constraintBottom_toTopOf="@+id/button_send_message"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_tap_message" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
