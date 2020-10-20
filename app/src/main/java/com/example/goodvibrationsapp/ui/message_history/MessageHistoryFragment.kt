@@ -34,23 +34,7 @@ class MessageHistoryFragment : Fragment() {
         list.addAll(listOf("1", "2", "3"))
         adapter = MessageHistoryAdapter(list)
         recycler.adapter = adapter
-        //database stuff
-        val database = FirebaseDatabase.getInstance()
-        val myRef = database.getReference("message")
-        myRef.addValueEventListener(object : ValueEventListener {
-            override fun onDataChange(dataSnapshot: DataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-                val value = dataSnapshot.getValue()
-                Log.d(TAG, "Value is: $value")
-                (activity as MainActivity?)?.vibratePhone(value.toString())
-            }
 
-            override fun onCancelled(error: DatabaseError) {
-                // Failed to read value
-                Log.w(TAG, "Failed to read value.", error.toException())
-            }
-        })
         return root
     }
 }

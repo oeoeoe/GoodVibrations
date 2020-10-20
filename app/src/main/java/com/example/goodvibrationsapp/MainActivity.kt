@@ -1,17 +1,22 @@
 package com.example.goodvibrationsapp
 
+import android.content.ContentValues
 import android.content.Context
 import android.os.Build
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
 
 
 class MainActivity : AppCompatActivity() {
@@ -31,7 +36,23 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+        //database stuff
+        val database = FirebaseDatabase.getInstance()
+        val myRef = database.getReference("message")
+        myRef.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(dataSnapshot: DataSnapshot) {
+                // This method is called once with the initial value and again
+                // whenever data at this location is updated.
+                val value = dataSnapshot.getValue()
+                Log.d(ContentValues.TAG, "Value is: $value")
+                vibratePhone(value.toString())
+            }
 
+            override fun onCancelled(error: DatabaseError) {
+                // Failed to read value
+                Log.w(ContentValues.TAG, "Failed to read value.", error.toException())
+            }
+        })
 
     }
 
