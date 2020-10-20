@@ -18,8 +18,14 @@
         tools:layout="@layout/fragment_dictionary" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.goodvibrationsapp.ui.notifications.NotificationsFragment"
-        android:label="@string/title_settings"
-        tools:layout="@layout/fragment_settings" />
+    android:id="@+id/navigation_notifications"
+    android:name="com.example.goodvibrationsapp.ui.notifications.NotificationsFragment"
+    android:label="@string/title_settings"
+    tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/message_history"
+        android:name="com.example.goodvibrationsapp.ui.message_history.MessageHistoryFragment"
+        android:label="@string/message_history"
+        tools:layout="@layout/message_history" />
 </navigation>

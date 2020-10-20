@@ -15,4 +15,5 @@
     <string name="new_message_alert">New Message Alert</string>
     <string name="logout">Log out</string>
     <string name="button_save_phrase">Save</string>
+    <string name="message_history">Message History</string>
 </resources>
