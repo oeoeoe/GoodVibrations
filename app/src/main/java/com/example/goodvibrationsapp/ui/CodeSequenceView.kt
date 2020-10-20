@@ -39,4 +39,8 @@ class CodeSequenceView(context: Context, attrs: AttributeSet): ConstraintLayout(
     }
 
     fun getCodeSequence() = outputTaps.text.toString()
+
+    fun resetTaps(){
+        outputTaps.text = ""
+    }
 }

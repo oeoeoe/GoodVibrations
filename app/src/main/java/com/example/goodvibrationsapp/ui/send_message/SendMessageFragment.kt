@@ -11,9 +11,12 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import com.example.goodvibrationsapp.MainActivity
+import com.example.goodvibrationsapp.Phrase
 import com.example.goodvibrationsapp.R
 import kotlinx.android.synthetic.main.fragment_send_message.*
 import com.google.firebase.database.FirebaseDatabase
+import kotlinx.android.synthetic.main.fragment_dictionary.*
 
 
 //previously known as HomeFragment
@@ -33,48 +36,14 @@ class SendMessageFragment : Fragment() {
     }
 
     fun vibratePhone() {
+
+       val phrase = Phrase(code_sequence_view.getCodeSequence(), headline_modal.text.toString())
         // Write a message to the database
         val database = FirebaseDatabase.getInstance()
         val myRef = database.getReference("message")
 
-        myRef.setValue(outputTaps.text.toString())
-        val vibrator = context?.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
-        if (Build.VERSION.SDK_INT >= 26) {
-            for (c in outputTaps.text.toString()){
-                when {
-                    c.toString() == "." -> {
-                        println(".")
-                        vibrator.vibrate(VibrationEffect.createOneShot(200, VibrationEffect.DEFAULT_AMPLITUDE))
-                    }
-                    c.toString() == "_" -> {
-                        vibrator.vibrate(VibrationEffect.createOneShot(800, VibrationEffect.DEFAULT_AMPLITUDE))
-                        println("_")
-                    }
-                    else -> {
-                        println("nothing")
-                    }
-                }
-                Thread.sleep(1_000)
-            }
-        } else {
-            for (c in outputTaps.text.toString()){
-                when {
-                    c.toString() == "." -> {
-                        println(".")
-                        vibrator.vibrate(200)
-                    }
-                    c.toString() == "_" -> {
-                        vibrator.vibrate(800)
-                        println("_")
-                    }
-                    else -> {
-                        println("nothing")
-                    }
-                }
-                Thread.sleep(1_000)
-            }
-
-        }
-        outputTaps.text = ""
+        myRef.setValue(phrase)
+        (activity as MainActivity?)?.vibratePhone(phrase.toString())
+        code_sequence_view.resetTaps()
     }
 }
