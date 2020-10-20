@@ -30,7 +30,7 @@ class SendMessageFragment : Fragment() {
         val root = inflater.inflate(R.layout.fragment_send_message, container, false)
         val sendButton :Button = root.findViewById(R.id.button_send_message)
         sendButton.setOnClickListener{
-            vibratePhone()
+            vibratePhone(taps_view.getCodeSequence())
         }
         return root
     }
@@ -40,13 +40,13 @@ class SendMessageFragment : Fragment() {
 
     }
 
-    fun vibratePhone() {
+    fun vibratePhone(message :String) {
         // Write a message to the database
         val database = FirebaseDatabase.getInstance()
         val myRef = database.getReference("message")
 
-        myRef.setValue(code_sequence_view.getCodeSequence())
-        (activity as MainActivity?)?.vibratePhone(code_sequence_view.getCodeSequence())
-        code_sequence_view.resetTaps()
+        myRef.setValue(message)
+        (activity as MainActivity?)?.vibratePhone(message)
+        taps_view.resetTaps()
     }
 }

@@ -31,12 +31,13 @@
     </LinearLayout>
 
     <com.example.goodvibrationsapp.ui.CodeSequenceView
+        android:id="@+id/taps_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/recipients_container"
-        app:layout_constraintBottom_toTopOf="@id/button_send_message" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recipients_container">
+    </com.example.goodvibrationsapp.ui.CodeSequenceView>
 
     <Button
         android:id="@+id/button_send_message"
