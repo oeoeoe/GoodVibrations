@@ -7,9 +7,6 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/colorBackground</item>
         <item name="android:textColor">@color/colorLightText</item>
-        <item name="actionBarItemBackground">@color/colorBackground</item>
-        <item name="android:actionBarTheme">@color/colorBackground</item>
-        <item name="appBarLayoutStyle">@color/colorBackground</item>
 
     </style>
 
@@ -28,8 +25,6 @@
         <item name="color">@color/colorPrimary</item>
     </style>
 
-
-
     <style name="TextBold">
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
@@ -38,6 +33,5 @@
     <style name="TextNormal">
         <item name="android:textSize">20sp</item>
     </style>
-
 
 </resources>
