@@ -20,6 +20,14 @@
         <item name="android:radius">@dimen/button_round_corners</item>
     </style>
 
+    <style name="ImageButtonSmall" parent="android:Widget.Button">
+        <item name="android:textColor">@color/colorLightText</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="color">@color/colorPrimary</item>
+    </style>
+
+
+
     <style name="TextBold">
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>

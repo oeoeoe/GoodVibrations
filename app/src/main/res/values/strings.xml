@@ -20,4 +20,6 @@
     <string name="contact1_nr">0732445566</string>
     <string name="message_contacts">Contacts</string>
     <string name="fragment_contacts">Contacts</string>
+    <string name="chris">Chris</string>
+    <string name="contact2_nr">0735556677</string>
 </resources>
