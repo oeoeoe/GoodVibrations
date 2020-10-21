@@ -16,4 +16,8 @@
     <string name="logout">Log out</string>
     <string name="button_save_phrase">Save</string>
     <string name="message_history">Message History</string>
+    <string name="alexander">Alexander</string>
+    <string name="contact1_nr">0732445566</string>
+    <string name="message_contacts">Contacts</string>
+    <string name="fragment_contacts">Contacts</string>
 </resources>
