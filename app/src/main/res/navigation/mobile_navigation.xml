@@ -28,4 +28,10 @@
         android:name="com.example.goodvibrationsapp.ui.message_history.MessageHistoryFragment"
         android:label="@string/message_history"
         tools:layout="@layout/message_history" />
+
+    <fragment
+        android:id="@+id/navigation_contacts"
+        android:name="com.example.goodvibrationsapp.ui.ContactsFragment"
+        android:label="@string/fragment_contacts"
+        tools:layout="@layout/fragment_contacts" />
 </navigation>

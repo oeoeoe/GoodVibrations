@@ -17,6 +17,11 @@
         android:title="@string/message_history" />
 
     <item
+        android:id="@+id/navigation_contacts"
+        android:icon="@drawable/icon_contacts"
+        android:title="@string/message_contacts" />
+
+    <item
         android:id="@+id/navigation_notifications"
         android:icon="@drawable/icon_settings"
         android:title="@string/title_settings" />
