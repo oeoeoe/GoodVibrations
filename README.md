@@ -5,6 +5,7 @@ To find out more about the app, please check out [Good Vibrations](https://oeoeo
 --- 
 ## Features, definitley not bugs
 ### When the app starts it will recieve the latest message from the database, the app is unresponsive when recieving messages. This is a feature, not a bug!
+
 Right now there can only be one message in the database at a time, sending a message will be recieved by all running apps. Please dont spam messages! 
 ---
 
