@@ -7,4 +7,7 @@
     <dimen name="line_padding">16dp</dimen>
     <dimen name="big_padding">60dp</dimen>
     <dimen name="activity_vertical_margin_small">8dp</dimen>
+    <dimen name="activity_vertical_margin_mini">4dp</dimen>
+    <dimen name="biggest_padding">60dp</dimen>
+    <dimen name="max_padding">80dp</dimen>
 </resources>
