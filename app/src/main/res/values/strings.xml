@@ -23,4 +23,5 @@
     <string name="chris">Chris</string>
     <string name="contact2_nr">0735556677</string>
     <string name="qr_text">Scan QR code to add as contact</string>
+    <string name="textview_vibration_strength">Vibration Strength</string>
 </resources>

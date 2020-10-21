@@ -38,7 +38,17 @@
             app:srcCompat="@drawable/icon_delete"
             style="@style/ImageButtonSmall"
             android:paddingStart="@dimen/activity_vertical_margin_mini"
+            android:paddingEnd="@dimen/big_padding"
             android:layout_gravity="center_vertical"
+            />
+        //Add button
+        <ImageButton
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_plus"
+            android:paddingStart="@dimen/activity_vertical_margin"
+            style="@style/ImageButtonSmall"
             />
 
     </LinearLayout>
