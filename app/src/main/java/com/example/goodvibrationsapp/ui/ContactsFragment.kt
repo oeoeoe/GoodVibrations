@@ -19,5 +19,4 @@ class ContactsFragment : Fragment() {
 
         return root
     }
-
 }
