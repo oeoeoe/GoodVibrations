@@ -10,4 +10,5 @@
     <dimen name="activity_vertical_margin_mini">4dp</dimen>
     <dimen name="biggest_padding">60dp</dimen>
     <dimen name="max_padding">80dp</dimen>
+    <dimen name="seekbar_length">146dp</dimen>
 </resources>

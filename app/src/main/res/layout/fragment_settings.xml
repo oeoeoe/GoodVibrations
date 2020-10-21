@@ -11,7 +11,7 @@
         android:id="@+id/text_notifications"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    //List of settings. Each setting has its own linear layout that is it's row.
+    //List of settings.
     <LinearLayout
         android:id="@+id/list_settings"
         android:layout_width="match_parent"
@@ -59,37 +59,34 @@
                 android:id="@+id/switch_new_message_alert"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Switch"
-                android:gravity="end"/>
-
+                android:layout_weight="1"
+                android:layout_gravity="end"/>
 
         </LinearLayout>
 
-        //Contacts row
+        //Vibration strength row
         <LinearLayout
-            android:id="@+id/contacts"
+            android:id="@+id/vibration_strength"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:padding="@dimen/line_padding">
 
             <TextView
-                android:id="@+id/textView_contacts"
+                android:id="@+id/textView_vibration_strength"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/textview_contacts"
+                android:text="@string/textview_vibration_strength"
                 style="@style/TextBold"/>
 
-            <TextView
-                android:id="@+id/textView_contact_names"
-                android:layout_width="wrap_content"
+            <SeekBar
+                android:layout_width="@dimen/seekbar_length"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/textview_contact_names"
-                style="@style/TextNormal"
-                android:gravity="end" />
+                android:layout_gravity="center_vertical"
+                ></SeekBar>
+
         </LinearLayout>
 
         //Activate button row
@@ -104,10 +101,17 @@
                 android:id="@+id/textview_activate_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="@string/activate_button"
                 android:gravity="start"
                 style="@style/TextBold"/>
+
+            <ImageButton
+                android:id="@+id/activate_button_edit"
+                style="@style/ImageButtonSmall"
+                android:paddingStart="@dimen/activity_vertical_margin_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/icon_edit" />
 
             <TextView
                 android:id="@+id/textview_volume_down"
