@@ -22,12 +22,13 @@
         android:id="@+id/newPhraseModal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#000">
+        android:background="#000"
+        android:paddingTop="@dimen/big_padding">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="center_horizontal"
             android:background="#434343"
             android:padding="24dp">
 
@@ -56,6 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/button_save_phrase"
+                style="@style/SimpleButton"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -65,15 +67,15 @@
     </FrameLayout>
 
     //Button to add new phrases
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
+        style="@style/ImageButtonSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginBottom="@dimen/big_padding"
         android:clickable="true"
-        android:src="@android:drawable/ic_input_add"
+        android:src="@drawable/icon_plus"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
