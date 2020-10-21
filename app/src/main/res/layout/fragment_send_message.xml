@@ -6,11 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".ui.send_message.SendMessageFragment">
 
+    //Recipients row
     <LinearLayout
         android:id="@+id/recipients_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -19,24 +21,38 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/activity_horizontal_margin"
-            android:text="@string/text_recipients" />
+            android:text="@string/text_recipients"
+            style="@style/TextBold"/>
 
-        <Button
-            android:id="@+id/button_recipients"
-            style="@style/SimpleButton"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/button_recipients"
-            android:textAllCaps="false" />
+            style="@style/TextNormal"
+            android:paddingStart="@dimen/activity_vertical_margin"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_delete"
+            style="@style/ImageButtonSmall"
+            android:paddingStart="@dimen/activity_vertical_margin_mini"
+            android:layout_gravity="center_vertical"
+            />
+
     </LinearLayout>
 
     <com.example.goodvibrationsapp.ui.CodeSequenceView
         android:id="@+id/taps_view"
+        android:paddingTop="@dimen/activity_vertical_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        style="@style/TextNormal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/recipients_container">
+
     </com.example.goodvibrationsapp.ui.CodeSequenceView>
 
     <Button
