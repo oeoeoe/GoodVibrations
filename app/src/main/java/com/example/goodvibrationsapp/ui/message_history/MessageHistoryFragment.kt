@@ -31,10 +31,10 @@ class MessageHistoryFragment : Fragment() {
         linearLayoutManager = LinearLayoutManager(this.activity)
         recycler.layoutManager = linearLayoutManager
         val list = arrayListOf<String>()
-        list.addAll(listOf("1", "2", "3"))
+        list.addAll(listOf("...___...", "._.__.", ".....____.........___"))
         adapter = MessageHistoryAdapter(list)
         recycler.adapter = adapter
-
+        //(activity as MainActivity?)!!.vibratePhone("...")
         return root
     }
 }

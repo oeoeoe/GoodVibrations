@@ -13,9 +13,9 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.goodvibrationsapp.ui.dashboard.DictionaryFragment"
+        android:name="com.example.goodvibrationsapp.ui.dictionary.DictionaryFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dictionary" />
+        tools:layout="@layout/fragment_dictionary_new" />
 
     <fragment
     android:id="@+id/navigation_notifications"

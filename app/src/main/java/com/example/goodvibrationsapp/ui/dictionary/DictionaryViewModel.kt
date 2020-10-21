@@ -1,4 +1,4 @@
-package com.example.goodvibrationsapp.ui.dashboard
+package com.example.goodvibrationsapp.ui.dictionary
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

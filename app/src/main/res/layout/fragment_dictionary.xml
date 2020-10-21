@@ -4,39 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.DictionaryFragment">
+    tools:context=".ui.dictionary.DictionaryFragment">
 
     //Modal view, with New Phrase window in centre. Opens on FAB click.
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dictionary_list_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <FrameLayout
         android:id="@+id/newPhraseModal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#000"
-        >
+        android:background="#000">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:padding="24dp"
-            android:background="@android:color/white">
+            android:background="#434343"
+            android:padding="24dp">
 
             <EditText
                 android:id="@+id/headline_modal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
                 android:text="New phrase"
-                android:textColor="@android:color/black"/>
+                android:textColor="@android:color/background_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <com.example.goodvibrationsapp.ui.CodeSequenceView
                 android:id="@+id/code_sequence_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/headline_modal">
 
             </com.example.goodvibrationsapp.ui.CodeSequenceView>
@@ -46,16 +56,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/button_save_phrase"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/code_sequence_view"
-                 />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/code_sequence_view" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </FrameLayout>
 
     //Button to add new phrases
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"

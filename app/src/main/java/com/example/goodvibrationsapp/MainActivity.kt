@@ -20,7 +20,7 @@ import com.google.firebase.database.ValueEventListener
 
 
 class MainActivity : AppCompatActivity() {
-
+    lateinit var database: FirebaseDatabase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
         //database stuff
-        val database = FirebaseDatabase.getInstance()
+        database = FirebaseDatabase.getInstance()
         val myRef = database.getReference("message")
         myRef.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
@@ -56,9 +56,12 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun getMessage() :String{
+        return "hej"
+    }
+
     fun vibratePhone(text :String) {
         // Write a message to the database
-        val database = FirebaseDatabase.getInstance()
         val myRef = database.getReference("message")
 
         myRef.setValue(text)
