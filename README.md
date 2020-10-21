@@ -12,7 +12,7 @@ Right now there can only be one message in the database at a time, sending a mes
 
 ---
 
-The requires no extra files, just download the files, import it into Android Studio and run it.
+The app requires no extra files, just download the files, import it into Android Studio and run it.
 
 
 #### What works right now?
