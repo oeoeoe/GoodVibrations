@@ -18,10 +18,10 @@
         tools:layout="@layout/fragment_dictionary_new" />
 
     <fragment
-    android:id="@+id/navigation_notifications"
-    android:name="com.example.goodvibrationsapp.ui.notifications.NotificationsFragment"
-    android:label="@string/title_settings"
-    tools:layout="@layout/fragment_settings" />
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.goodvibrationsapp.ui.notifications.NotificationsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
 
     <fragment
         android:id="@+id/message_history"
