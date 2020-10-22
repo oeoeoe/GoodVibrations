@@ -15,7 +15,7 @@ Right now there can only be one message in the database at a time, sending a mes
 The app requires no extra files, just download the files, import it into Android Studio and run it.
 
 
-Somoe views onoly contains dummy data, these views are: **Dictiooonary view**, **Setting view** and **Message Histoory view**. These views have no functiality, they serve mostly as a placeholder to shoowcase whhats to come.
+Some views only contains dummy data, these views are: **Dictionary view**, **Settings view** and **Message History view**. These views have no functionality, they serve mostly as a placeholder to showcase whats to come.
 
 #### What works right now?
 
@@ -25,15 +25,15 @@ Somoe views onoly contains dummy data, these views are: **Dictiooonary view**, *
 - [ ] Delete taps in a message
 - [x] Sending a message
 - [x] Recieving a message
-- [x] navigate between views
+- [x] Navigate between views
 - [ ] See message history
 - [ ] Review messages in history
 - [ ] Sign in
 - [ ] Choose contacts to send to
 - [ ] Add contacts
-- [x] Add phrases into dictionary
+- [x] Add phrases into dictionary (to database, which you can't see)
 - [ ] See phrases in dictionary
 - [ ] Quick send message from dictionary
 - [ ] Set vibration intensity
-- [ ] Set "new messsage alert"
+- [ ] Set *new messsage alert*
 
