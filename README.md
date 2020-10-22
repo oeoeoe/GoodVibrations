@@ -15,6 +15,8 @@ Right now there can only be one message in the database at a time, sending a mes
 The app requires no extra files, just download the files, import it into Android Studio and run it.
 
 
+Somoe views onoly contains dummy data, these views are: **Dictiooonary view**, **Setting view** and **Message Histoory view**. These views have no functiality, they serve mostly as a placeholder to shoowcase whhats to come.
+
 #### What works right now?
 
 - [x] Starting the app
