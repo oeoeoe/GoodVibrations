@@ -18,10 +18,20 @@ The app requires no extra files, just download the files, import it into Android
 #### What works right now?
 
 - [x] Starting the app
-- [x] Sending a Vibration
-- [x] Recieving a Vibration
-- [ ] Message History
+- [x] Tap a message
+- [ ] Edit a message
+- [ ] Delete taps in a message
+- [x] Sending a message
+- [x] Recieving a message
+- [x] navigate between views
+- [ ] See message history
+- [ ] Review messages in history
 - [ ] Sign in
 - [ ] Choose contacts to send to
 - [ ] Add contacts
+- [x] Add phrases into dictionary
+- [ ] See phrases in dictionary
+- [ ] Quick send message from dictionary
+- [ ] Set vibration intensity
+- [ ] Set "new messsage alert"
 
