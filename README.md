@@ -17,7 +17,7 @@ The app requires no extra files, just download the files, import it into Android
 
 Some views only contains dummy data, these views are: **Dictionary view**, **Settings view** and **Message History view**. These views have no functionality, they serve mostly as a placeholder to showcase whats to come.
 
-#### What works right now?
+### What works right now?
 
 - [x] Starting the app
 - [x] Tap a message
