@@ -8,6 +8,7 @@ Here you can read about the process in developing Good Vibrations. The newest it
 An interactive prototype is now being developed. Futher refinement of functions and design may be coming. 
 
 ### These are the functions of the apps that we aim to create
+Too see the progress, please scroll down to the latest iteratioo
 - [ ] Starting the app
 - [ ] Navigate between views
 - [ ] Tap a message
