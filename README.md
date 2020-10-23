@@ -11,10 +11,11 @@ When the app starts it will recieve the latest message from the database, the ap
 Right now there can only be one message in the database at a time, sending a message will be recieved by all running apps including yours. Please dont spam messages! 
 
 ---
+### Installation
 
-The app requires no extra files, just download the files, import it into Android Studio and run it.
+The app requires no extra libraries oor files, just download the files from the repo, import it into *Android Studio* and click **run**.
 
-
+### Dummy Data
 Some views only contains dummy data, these views are: **Dictionary view**, **Settings view** and **Message History view**. These views have no functionality, they serve mostly as a placeholder to showcase whats to come.
 
 ### What works right now?
