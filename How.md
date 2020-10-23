@@ -6,12 +6,35 @@ Here you can read about the process in developing Good Vibrations. The newest it
 
 ## Future Work
 An interactive prototype is now being developed. Futher refinement of functions and design may be coming. 
+
+### these are the functions of the apps that we aim to create
+- [ ] Starting the app
+- [ ] Navigate between views
+- [ ] Tap a message
+- [ ] Edit a message
+- [ ] Delete taps in a message
+- [ ] Sending a message
+- [ ] Recieving a message
+- [ ] Recieving a message when the app is not running (push notification)
+- [ ] See message history
+- [ ] Review messages in history
+- [ ] Create an account
+- [ ] Sign in
+- [ ] Add contacts
+- [ ] Choose contacts to send to
+- [ ] Add phrases into dictionary (to database, which you can't see)
+- [ ] See phrases in dictionary (from the database)
+- [ ] Quick send message from dictionary
+- [ ] Set vibration intensity
+- [ ] Set *new messsage alert*
+- [ ] Secret mode (where all interface is hidden)
+
 ## Stuff we have considered and chose to not include
 This section will talk about some design desicions that we have made.
 ## iteration 4
 This is the current iteration and it will be updated with new information during the iteration.
 
-### What works right now?
+### What works after this iteration?
 
 - [x] Starting the app
 - [x] Navigate between views
@@ -34,7 +57,7 @@ This is the current iteration and it will be updated with new information during
 - [ ] Set *new messsage alert*
 - [ ] Secret mode (where all interface is hidden)
 
-### MVP for testing the prototype
+### MVP for testing the prototype in this iteration
 - [x] Starting the app
 - [x] Tap a message
 - [x] Sending a message
