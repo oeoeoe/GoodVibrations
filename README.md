@@ -16,7 +16,7 @@ Right now there can only be one message in the database at a time, sending a mes
 The app requires no extra libraries or files, just download the files from the repo, import it into *Android Studio* and click **run**.
 
 ### Dummy Data
-Some views only contains dummy data, these views are: **Dictionary view**, **Settings view** and **Message History view**. These views have no functionality, they serve mostly as a placeholder to showcase whats to come.
+Some views only contains dummy data, these views are: **Dictionary view**, **Settings view** and **Message History view**. These views have no functionality, but only serve as placeholders to showcase which functionality the app should have in its fully fledged form. 
 
 ### What works right now?
 
@@ -40,3 +40,31 @@ Some views only contains dummy data, these views are: **Dictionary view**, **Set
 - [ ] Set vibration intensity
 - [ ] Set *new messsage alert*
 - [ ] Secret mode (where all interface is hidden)
+
+### About the views
+
+New Message view: 
+Use the large button in the middle to create a message, using short and long taps. The message will be output below the button. Pressing send button will [TODO: Allex] [also Allex: can you use swipe to send?] .... 
+The Recipients row is just a placeholder. In this prototype, you can't interact with it. In a functioning version, the x next to the name should delete the recipient, and the + should be used to add a new recipient, so that you can send the message to several recipients.
+
+Dictionary view: 
+Use the FAB button to open a modal view where you use short and long taps to create a new phrase in your dictionary. Change the EditText to set a meaning for the tap sequence. The Save button does not do anything yet. Press the FAB button again to close the modal view. 
+
+Message History view: 
+This should be a list of all [TODO: Allex. Sent and/or received?] messages. Right now it only shows the tap sequences, but it should also be possible to see when the messages were sent [TODO: and to /from whom?].
+
+Contacts view: 
+This is a placeholder showing how your screen could look if you had two contacts in the app. The buttons for edit, delete, and add contacts are not holding any functionality at the moment, but only show what should be possible to do in this view. The QR code should be an option for simple adding of new contacts. 
+
+Settings view: 
+This view currently has no functionality, but only shows what should be possible in a complete version of the app. 
+New Message Alert: When receiving a new message, it should be possible to switch on and of a vibration signal, depending on how discreet you want to be. The signal should also be possible to change. 
+Vibration Strength: Should be from off to max, so that you can choose how obvious the signal should be. 
+Activate Button: In the complete version of the app, it should be possible to open the app discreetly, usng for instance Volume down. It should be possible to edit how to activate the app. [TODO: Allex halp] ...
+
+
+
+
+
+
+
