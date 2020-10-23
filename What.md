@@ -2,6 +2,8 @@
 title: What is Good Vibrations?
 ---
 
+Here we will describe what Good Vibrations is and how it works.
+
 ## The Challenge
 
 Private messages can contain sensitive and secret information that no one but the recipient is supposed to see. A question that we have set out to solve is: How can you send and receive secret messages via cellphones without the need of hiding the screen from others?
@@ -14,6 +16,7 @@ By sending short codes in the form of vibrations, you can quickly and discreetly
 
 
 ## Screenshots with descriptions 
+Here you can see all of the views in the app and a short description of the content and functions in that view.
 
 ### Main Screens
 
