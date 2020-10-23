@@ -21,22 +21,24 @@ Some views only contains dummy data, these views are: **Dictionary view**, **Set
 ### What works right now?
 
 - [x] Starting the app
+- [x] Navigate between views
 - [x] Tap a message
 - [ ] Edit a message
 - [ ] Delete taps in a message
 - [x] Sending a message
 - [x] Recieving a message
-- [x] Navigate between views
 - [ ] See message history
 - [ ] Review messages in history
+- [ ] Create an account
 - [ ] Sign in
-- [ ] Choose contacts to send to
 - [ ] Add contacts
+- [ ] Choose contacts to send to
 - [x] Add phrases into dictionary (to database, which you can't see)
-- [ ] See phrases in dictionary
+- [ ] See phrases in dictionary (from the database)
 - [ ] Quick send message from dictionary
 - [ ] Set vibration intensity
 - [ ] Set *new messsage alert*
+- [ ] Secret mode (where all interface is hidden)
 
 ### MVP for testing the prototype
 - [x] Starting the app
