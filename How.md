@@ -23,8 +23,8 @@ Too see the progress, please scroll down to the latest iteratioo
 - [ ] Sign in
 - [ ] Add contacts
 - [ ] Choose contacts to send to
-- [ ] Add phrases into dictionary (to database, which you can't see)
-- [ ] See phrases in dictionary (from the database)
+- [ ] Add phrases into dictionary
+- [ ] See phrases in dictionary
 - [ ] Quick send message from dictionary
 - [ ] Set vibration intensity
 - [ ] Set *new messsage alert*
