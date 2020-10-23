@@ -28,8 +28,6 @@ Too see the progress, please scroll down to the latest iteratioo
 - [ ] Set *new messsage alert*
 - [ ] Secret mode (where all interface is hidden)
 
-## Stuff we have considered and chose to not include
-This section will talk about some design desicions that we have made.
 ## Iteration 4
 
 The current state of the application is shown in the images and text below.
