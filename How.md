@@ -11,6 +11,35 @@ This section will talk about some design desicions that we have made.
 ## iteration 4
 This is the current iteration and it will be updated with new information during the iteration.
 
+### What works right now?
+
+- [x] Starting the app
+- [x] Navigate between views
+- [x] Tap a message
+- [ ] Edit a message
+- [ ] Delete taps in a message
+- [x] Sending a message
+- [x] Recieving a message
+- [ ] Recieving a message when the app is not running (push notification)
+- [ ] See message history
+- [ ] Review messages in history
+- [ ] Create an account
+- [ ] Sign in
+- [ ] Add contacts
+- [ ] Choose contacts to send to
+- [x] Add phrases into dictionary (to database, which you can't see)
+- [ ] See phrases in dictionary (from the database)
+- [ ] Quick send message from dictionary
+- [ ] Set vibration intensity
+- [ ] Set *new messsage alert*
+- [ ] Secret mode (where all interface is hidden)
+
+### MVP for testing the prototype
+- [x] Starting the app
+- [x] Tap a message
+- [x] Sending a message
+- [x] Recieving a message
+
 ## Iteration 3
 
 ### Targeting regular users
