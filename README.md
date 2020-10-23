@@ -40,9 +40,3 @@ Some views only contains dummy data, these views are: **Dictionary view**, **Set
 - [ ] Set vibration intensity
 - [ ] Set *new messsage alert*
 - [ ] Secret mode (where all interface is hidden)
-
-### MVP for testing the prototype
-- [x] Starting the app
-- [x] Tap a message
-- [x] Sending a message
-- [x] Recieving a message
