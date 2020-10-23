@@ -13,20 +13,6 @@ In Good Vibrations, messages are secured by being sent as vibrations instead of 
 By sending short codes in the form of vibrations, you can quickly and discreetly send messages that you don’t want anyone except your friend to see. Just tap a predefined sequence of long and short taps, and send the message by swiping right. Your friend will receive the message as vibrations matching your taps. In the app, you and your friend can define a dictionary so that a short set of short and long vibrations can convey something of importance to you, such as a place to meet, or the name of a secret crush.
 
 
-## Functionality of Good Vibrations 
-
-This list is far from complete, but it's gonna be good.
-
-* Sends secret messages
-* Share new words with the dictionary
-* Edit words in the dictionary
-* Remove words in the dictionary
-* Fast type messages directly from the dictionary
-* See message histoory
-* Add contacts to send messages to
-* Send messages without opening the application
-* Edit/Review messages before ssending them
-
 ## Screenshots with descriptions 
 
 ### Main Screens
