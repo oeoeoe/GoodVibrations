@@ -77,6 +77,7 @@ No evaluation done as of now
 
 ## Iteration 3
 
+This iteration was split into two separate prototypes that will be described seperatly below
 ### Targeting regular users
 
 In the concept where we are targeting regular users, we wanted to make the learning curve as small as possible. Therefore the application needs to guide the user and offer an easier way to communicate than using regular morse code. Therefore the need to translate taps into letters and vice versa were removed. Instead the application sends the taps as they are without any translations, this further allows the users to communicate in whatever way they want to. Using the dictionary is not mandatory, however it may help the user so that they do not have to remember all of the codes that they have come up with.
