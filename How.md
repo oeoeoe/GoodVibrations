@@ -2,10 +2,8 @@
 title: How was Good Vibrations developed?
 ---
 
-Here you can read about the process in developing Good Vibrations. The newest iteration of the project is at the top and the very first iteration can be found at the end. Related work can also be seen at the end of this page.
+Here you can read about the process in developing Good Vibrations. The newest iteration of the project is at the top and the very first iteration can be found at the end.
 
-## Future Work
-An interactive prototype is now being developed. Futher refinement of functions and design may be coming. 
 
 ### These are the functions of the apps that we aim to create
 Too see the progress, please scroll down to the latest iteratioo
@@ -189,5 +187,3 @@ The second direction that we wanted to explore was for use by more advanced user
  
  
 **The initial description of the concept:** Messages are secured by being sent as a form of morse code that the recipient can feel by the phones vibrations. The idea is that the vibrations will be strong enough so that the recipient can feel the individual vibrations with their phone in their pocket, but not to strong so that the some one else could hear the phones vibrations.
-
-## Related Work
