@@ -33,6 +33,14 @@ Too see the progress, please scroll down to the latest iteratioo
 ## Stuff we have considered and chose to not include
 This section will talk about some design desicions that we have made.
 ## Iteration 4
+
+The current state of the application is shown in the images and text below.
+
+
+<img src="images\4send.png" alt="Log in Screen" style="zoom:50%;" /> <img src="images\4contact.png" alt="Log in Screen-1" style="zoom:50%;" /> <img src="images\4settings.png" alt="Log in Screen-1" style="zoom:50%;" /> 
+
+<img src="images\4dictionary.png" alt="Log in Screen" style="zoom:50%;" /> <img src="images\4new.png" alt="Log in Screen-1" style="zoom:50%;" /> <img src="images\4history.png" alt="Log in Screen-1" style="zoom:50%;" /> 
+
 This is the current iteration and it will be updated with new information during the iteration.
 
 ### What works after this iteration?
