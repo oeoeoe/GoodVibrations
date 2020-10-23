@@ -13,7 +13,7 @@ Right now there can only be one message in the database at a time, sending a mes
 ---
 ### Installation
 
-The app requires no extra libraries oor files, just download the files from the repo, import it into *Android Studio* and click **run**.
+The app requires no extra libraries or files, just download the files from the repo, import it into *Android Studio* and click **run**.
 
 ### Dummy Data
 Some views only contains dummy data, these views are: **Dictionary view**, **Settings view** and **Message History view**. These views have no functionality, they serve mostly as a placeholder to showcase whats to come.
