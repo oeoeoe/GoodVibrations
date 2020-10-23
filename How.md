@@ -37,9 +37,9 @@ This section will talk about some design desicions that we have made.
 The current state of the application is shown in the images and text below.
 
 
-<img src="images\4send.png" alt="Log in Screen" style="zoom:50%;" /> <img src="images\4contact.png" alt="Log in Screen-1" style="zoom:50%;" /> <img src="images\4settings.png" alt="Log in Screen-1" style="zoom:50%;" /> 
+<img src="images\4send.png" alt="New Message Screen" style="zoom:50%;" /> <img src="images\4contact.png" alt="Contacts Screen" style="zoom:50%;" /> <img src="images\4settings.png" alt="Settings Screen" style="zoom:50%;" /> 
 
-<img src="images\4dictionary.png" alt="Log in Screen" style="zoom:50%;" /> <img src="images\4new.png" alt="Log in Screen-1" style="zoom:50%;" /> <img src="images\4history.png" alt="Log in Screen-1" style="zoom:50%;" /> 
+<img src="images\4dictionary.png" alt="Dictionary Screen" style="zoom:50%;" /> <img src="images\4new.png" alt="New Dictionary Screen" style="zoom:50%;" /> <img src="images\4history.png" alt="Message History Screen" style="zoom:50%;" /> 
 
 This is the current iteration and it will be updated with new information during the iteration.
 
