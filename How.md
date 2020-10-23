@@ -6,7 +6,7 @@ Here you can read about the process in developing Good Vibrations. The newest it
 
 
 ### These are the functions of the apps that we aim to create
-Too see the progress, please scroll down to the latest iteratioo
+Too see the progress, please scroll down to the latest iteration
 - [ ] Starting the app
 - [ ] Navigate between views
 - [ ] Tap a message
@@ -30,7 +30,7 @@ Too see the progress, please scroll down to the latest iteratioo
 
 ## Iteration 4
 
-The current state of the application is shown in the images and text below.
+The current state of the application is shown in the images and text below. Evaluation on this iteration is not yet done.
 
 ### What works after this iteration?
 
