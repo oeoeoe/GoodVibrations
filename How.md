@@ -118,7 +118,9 @@ This iteration was evaluated by conduction interviews after the participants hav
 
 **Unclarities:** Pre recorded messages? Hard to understand main screen and how to interact with the app. Can the morse code be changed? 
 
-**Improvements:** More pre recorded messages. Control vibrations’ strength.Feelings: Confusion - Positive
+**Improvements:** More pre recorded messages. Control vibrations’ strength.
+
+**Feelings:**  Confusion - Positive
 
 ### Outcomes and learnings from iteration 2
 
