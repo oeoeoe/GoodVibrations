@@ -6,6 +6,7 @@ title: Start
 ## What is Good Vibrations?
 
 ---
+
 Tove Ekman (ektove@student.chalmers.se), Alexander Nordgren (alenordg@student.chalmers.se)
 
 ---
