@@ -55,6 +55,16 @@
                 android:text="@string/new_message_alert"
                 style="@style/TextBold"/>
 
+            <ImageButton
+                android:id="@+id/contacts_button_edit"
+                style="@style/ImageButtonSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/activity_vertical_margin_small"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/contacts_button_trash"
+                app:srcCompat="@drawable/icon_edit" />
+
             <Switch
                 android:id="@+id/switch_new_message_alert"
                 android:layout_width="wrap_content"

@@ -7,7 +7,7 @@
     <string name="text_recipients">Recipients:</string>
     <string name="button_recipients">Alexander</string>
     <string name="button_title_tap_a_sequence_here">Tap a sequence here</string>
-    <string name="title_send_message">Send message</string>
+    <string name="title_send_message">Send</string>
     <string name="activate_button">Activate Button</string>
     <string name="volume_down">Volume down</string>
     <string name="textview_contacts">Contacts</string>
