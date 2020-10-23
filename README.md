@@ -27,6 +27,7 @@ Some views only contains dummy data, these views are: **Dictionary view**, **Set
 - [ ] Delete taps in a message
 - [x] Sending a message
 - [x] Recieving a message
+- [ ] Recieving a message when the app is not running (push notification)
 - [ ] See message history
 - [ ] Review messages in history
 - [ ] Create an account
