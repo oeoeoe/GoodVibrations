@@ -36,13 +36,6 @@ This section will talk about some design desicions that we have made.
 
 The current state of the application is shown in the images and text below.
 
-
-<img src="images\4send.png" alt="New Message Screen" style="zoom:20%;" /> <img src="images\4contact.png" alt="Contacts Screen" style="zoom:20%;" /> <img src="images\4settings.png" alt="Settings Screen" style="zoom:20%;" /> 
-
-<img src="images\4dictionary.png" alt="Dictionary Screen" style="zoom:20%;" /> <img src="images\4new.png" alt="New Dictionary Screen" style="zoom:20%;" /> <img src="images\4history.png" alt="Message History Screen" style="zoom:20%;" /> 
-
-This is the current iteration and it will be updated with new information during the iteration.
-
 ### What works after this iteration?
 
 - [x] Starting the app
@@ -71,6 +64,33 @@ This is the current iteration and it will be updated with new information during
 - [x] Tap a message
 - [x] Sending a message
 - [x] Recieving a message
+
+### Current Views
+
+<img src="images\4send.png" alt="New Message Screen" style="zoom:20%;" /> <img src="images\4contact.png" alt="Contacts Screen" style="zoom:20%;" /> <img src="images\4settings.png" alt="Settings Screen" style="zoom:20%;" /> 
+
+<img src="images\4dictionary.png" alt="Dictionary Screen" style="zoom:20%;" /> <img src="images\4new.png" alt="New Dictionary Screen" style="zoom:20%;" /> <img src="images\4history.png" alt="Message History Screen" style="zoom:20%;" /> 
+
+### About the views
+
+**New Message view:**
+Use the large button in the middle to create a message, using short and long taps. The message will be output below the button. Pressing send button will send the message to the database and all apps will recieve it, including yours.
+The Recipients row is just a placeholder. In this prototype, you can't interact with it. In a functioning version, the x next to the name should delete the recipient, and the + should be used to add a new recipient, so that you can send the message to several recipients.
+
+**Dictionary view:**
+Use the FAB button to open a modal view where you use short and long taps to create a new phrase in your dictionary. Change the EditText to set a meaning for the tap sequence. The Save button does not do anything yet. Press the FAB button again to close the modal view. 
+
+**Message History view:**
+This should be a list of all received messages. Right now it only shows the tap sequences, but it should also be possible to see when the messages were recieved, as well as from whom.
+
+**Contacts view:** 
+This is a placeholder showing how your screen could look if you had two contacts in the app. The buttons for edit, delete, and add contacts are not holding any functionality at the moment, but only show what should be possible to do in this view. The QR code should be an option for simple adding of new contacts. 
+
+**Settings view:** 
+This view currently has no functionality, but only shows what should be possible in a complete version of the app. 
+New Message Alert: When receiving a new message, it should be possible to switch on and of a vibration signal, depending on how discreet you want to be. The signal should also be possible to change. 
+Vibration Strength: Should be from off to max, so that you can choose how obvious the signal should be. 
+Activate Button: In the complete version of the app, it should be possible to open the app discreetly, using for instance Volume down. It should be possible to edit how to activate the app. The secret mode will let the user tap in a message oon the home screen while holding the activation button. This means that there will be no interface showing, except for the home screen or app that the user is currently in (does not need to be Good Vibrations)
 
 ### Evaluation
 No evaluation done as of now
