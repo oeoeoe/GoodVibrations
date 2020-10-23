@@ -7,7 +7,7 @@ Here you can read about the process in developing Good Vibrations. The newest it
 ## Future Work
 An interactive prototype is now being developed. Futher refinement of functions and design may be coming. 
 
-### these are the functions of the apps that we aim to create
+### These are the functions of the apps that we aim to create
 - [ ] Starting the app
 - [ ] Navigate between views
 - [ ] Tap a message
@@ -31,7 +31,7 @@ An interactive prototype is now being developed. Futher refinement of functions 
 
 ## Stuff we have considered and chose to not include
 This section will talk about some design desicions that we have made.
-## iteration 4
+## Iteration 4
 This is the current iteration and it will be updated with new information during the iteration.
 
 ### What works after this iteration?
@@ -62,6 +62,9 @@ This is the current iteration and it will be updated with new information during
 - [x] Tap a message
 - [x] Sending a message
 - [x] Recieving a message
+
+### Evaluation
+No evaluation done as of now
 
 ## Iteration 3
 
@@ -150,7 +153,7 @@ This iteration was evaluated by conduction interviews after the participants hav
 Based on the evaluations we decided to split the app into two separate projects. One direction of the concept was an app for regular users, this app would rely heavily on predefined messages instead of morse code. 
 The second direction that we wanted to explore was for use by more advanced users, such as secret agents where the users are more inclined to accept the steep learning curve.
 
-## iteration 1
+## Iteration 1
 
  The idea for Good Vibrations was born by compiling a list of sensors that a smartphone contains. Based on this list some ideation were pursued, such as brainstorming. The idea of sending and receiving messages based on vibrations were born. Following the ideation was a desk study to see if this would be feasible, studies point out that learning to distinguish words in morse code based on vibrations might need a lot of training, but it is doable. [The study can be read here](https://dl.acm.org/doi/10.1145/3402935)
  
