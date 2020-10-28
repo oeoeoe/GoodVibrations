@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Start 
+order: 1
 ---
 
 ## What is Good Vibrations?
