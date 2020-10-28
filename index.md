@@ -16,12 +16,8 @@ Good Vibrations is an app that allows you to receive messages without the need t
 
 *Video - describes functionality. This is how you use the app*
 
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/CzVaDYxC1dU/0.jpg)](https://youtu.be/CzVaDYxC1dU)
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CzVaDYxC1dU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CzVaDYxC1dU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 [Click here to read more about the app](https://oeoeoe.github.io/GoodVibrations/What.html)
 
